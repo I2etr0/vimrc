@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need to install VIM and you have to clone for install them
 
 ```
-Give examples
+Intsall
 ```
 
 ### Installing
