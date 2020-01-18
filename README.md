@@ -35,7 +35,9 @@ mv .vimrc ~/
 ```
 **3) Plugin installation**
 We go to the page of these guys and copy:  
-Vim
+<br/>
+**Vim**  
+
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
