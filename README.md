@@ -42,7 +42,7 @@ We go to the page of these guys and copy:
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-Launch <vim  > and run <:PluginInstall  >
+Launch **vim** and run **:PluginInstall**
 
 #### 4) Add Plugin
 Copy the name of the project (morhetz/gruvbox) and paste it into .vimrc (this step has already been done)
@@ -50,10 +50,6 @@ Copy the name of the project (morhetz/gruvbox) and paste it into .vimrc (this st
 
 #### Final step
 
-Open a terminal and run vim:
-```
-sudo vim
-```
 After opening Vim, press "Shift + ;" and write:
 ```
  source ~/.vimrc
