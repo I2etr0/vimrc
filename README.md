@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-**1)Install:**
+#### 1)Install:
 Install VIM:
 
 For RedHat (CentOs, Fedora)
@@ -20,7 +20,7 @@ For Debian (Ubuntu, Pop!\_OS, Mint)
 ```
 sudo apt install vim
 ```
-**2) Unzipping**
+#### 2) Unzipping
 Go to your home folder:
 ```
 cd ~/
@@ -33,7 +33,7 @@ A folder with settings will appear in your home directory. You need to transfer 
 ```
 mv .vimrc ~/
 ```
-**3) Plugin installation**
+#### 3) Plugin installation
 We go to the page of these guys and copy:  
 <br/>
 **Vim**  
@@ -42,8 +42,13 @@ We go to the page of these guys and copy:
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+Launch <vim  > and run <:PluginInstall  >
 
-**Final step**
+#### 4) Add Plugin
+Copy the name of the project (morhetz/gruvbox) and paste it into .vimrc (this step has already been done)
+
+
+#### Final step
 
 Open a terminal and run vim:
 ```
