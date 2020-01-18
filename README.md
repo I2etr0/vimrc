@@ -55,6 +55,12 @@ After opening Vim, press "Shift + ;" and write:
 ```
  source ~/.vimrc
 ```
+<br/>
+And finally, click "**Shift +;**" again and write:
+```
+w
+```
+
 
 If nothing happened, then restart vim
 
