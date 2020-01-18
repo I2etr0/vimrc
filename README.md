@@ -48,8 +48,7 @@ Give an example
 
 Explain what these tests test and why
 
-```
-Give an example
+```See also the list of [contributors](https://github.com/I2etr0/.vimrc/graphs/contributors) who participated in this project.
 ```
 
 ## Deployment
@@ -72,7 +71,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **I2etr0** - *Initial work* - [I2etr0](https://github.com/I2etr0)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
