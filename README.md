@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-**1)First step:**
+**1)Install:**
 Install VIM:
 
 For RedHat (CentOs, Fedora)
@@ -20,7 +20,7 @@ For Debian (Ubuntu, Pop!\_OS, Mint)
 ```
 sudo apt install vim
 ```
-**2) Second step**
+**2) Unzipping**
 Go to your home folder:
 ```
 cd ~/
@@ -33,6 +33,15 @@ A folder with settings will appear in your home directory. You need to transfer 
 ```
 mv .vimrc ~/
 ```
+**3) Plugin installation**
+We go to the page of these guys and copy:  
+<br/>
+Vim
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 **Final step**
 
 Open a terminal and run vim:
