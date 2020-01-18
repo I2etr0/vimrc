@@ -62,14 +62,14 @@ And finally, click "**Shift +;**" again and write:
 w
 ```
 
-
-If nothing happened, then restart vim
-
 # Good luck!!!
 
 
 ## Authors
 
 * **I2etr0** - *Initial work* - [I2etr0](https://github.com/I2etr0)
+* **Plugin gruvbox** - *Plugin development* - [Gruvbox](https://github.com/morhetz/gruvbox)
+* **Plugin nerdtree** - * Plugin development * - [Nerdtree](https://github.com/preservim/nerdtree)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+See also the list of [contributors](https://github.com/I2etr0/.vimrc/graphs/contributors) who participated in this project.
