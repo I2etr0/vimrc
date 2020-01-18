@@ -32,3 +32,6 @@ Plug 'morhetz/gruvbox'
 " Initialize plugin system
 call plug#end()
 
+
+colorscheme gruvbox
+set background=dark
