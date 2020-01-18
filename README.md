@@ -46,9 +46,7 @@ After opening Vim, press "Shift + ;" and write:
 
 If nothing happened, then restart vim
 
-## Running the tests
-
-Explain how to run the automated tests for this system
+# Good luck!!!
 
 
 ## Authors
