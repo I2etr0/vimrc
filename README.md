@@ -21,9 +21,9 @@ For Debian (Ubuntu, Pop!\_OS, Mint)
 sudo apt install vim
 ```
 #### 2) Unzipping
-Go to your home folder:
+Go to your Download folder:
 ```
-cd ~/
+cd ~/Download/
 ```
 and clone settings:
 ```
