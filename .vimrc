@@ -1,10 +1,37 @@
+ssyntax on
+
 set number
 set tabstop=4
-
-syntax on
-
 set hlsearch
 set incsearch
+set smarttab
+set et
+set wrap
+set ai
+set cin
+set lz
+set ffs=unix,dos,mac
+set fencs=utf-8,cp1251,koi8-r,ucs-2,cp866
+set listchars=tab:··
+set mousehide
+set cursorline
+set history=200
+set wildmenu
+set smartindent
+
+
+
+"Автодополнение на TAB
+function! SuperCleverTab()
+    if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+        return "\<Tab>"
+    else
+        return "\<C-p>"
+    endif
+endfunction
+
+inoremap <Tab> <C-R>=SuperCleverTab()<cr>
+
 
 "mappings
 
@@ -12,6 +39,9 @@ set incsearch
 map <C-t> : NERDTreeToggle<CR>
 
 map <C-n> : nohlsearch<CR>
+
+"Биндинг автодополнения на TAB
+inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 "-------------------------------------------------------------------
 
@@ -28,6 +58,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 "Color_Schemes:
 Plug 'morhetz/gruvbox'
+"Plug 'artanikin/vim-synthwave84'
 
 " Initialize plugin system
 call plug#end()
