@@ -1,14 +1,15 @@
-ssyntax on
+syntax on
 
 set number
 set tabstop=4
+set shiftwidth=4
+set smarttab
 set hlsearch
 set incsearch
 set smarttab
 set et
 set wrap
 set ai
-set cin
 set lz
 set ffs=unix,dos,mac
 set fencs=utf-8,cp1251,koi8-r,ucs-2,cp866
