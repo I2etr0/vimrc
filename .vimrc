@@ -49,6 +49,7 @@ inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 
 
+
 "-------------------------------------------------------------------
 " Начало плагинов:
 
@@ -59,6 +60,13 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 "Color_Schemes:
 Plug 'morhetz/gruvbox'
+
+"Nginx:
+Plug 'chr4/nginx.vim'
+
+"Php:
+Plug 'stanangeloff/php.vim'
+
 "Plug 'artanikin/vim-synthwave84'
 
 " Initialize plugin system
