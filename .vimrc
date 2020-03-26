@@ -1,12 +1,16 @@
 syntax on
 
 set number
+set showcmd
 set tabstop=4
 set shiftwidth=4
 set smarttab
+set termencoding=utf8
 set hlsearch
 set incsearch
 set smarttab
+set hidden
+set ruler
 set et
 set wrap
 set ai
@@ -19,6 +23,15 @@ set cursorline
 set history=200
 set wildmenu
 set smartindent
+set mouse=a
+set mousemodel=popup
+set mousehide
+set smartindent
+set showmatch
+set cursorline
+highlight CursorLine guibg=lightblue ctermbg=lightgray
+highlight CursorLine term=none cterm=none
+set list listchars=tab:→\ ,trail:·
 
 
 
