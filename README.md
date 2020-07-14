@@ -64,7 +64,7 @@ After opening Vim, press "Shift + ;" and write:
 And finally, click "**Shift +;**" again and write:  
 
 ```
-w
+q
 ```
 
 # Good luck!!!
