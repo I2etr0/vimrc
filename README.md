@@ -23,7 +23,7 @@ sudo apt install vim
 #### 2) Unzipping
 Go to your Download folder:
 ```
-cd ~/Download/
+cd ~/Downloads/
 ```
 and clone settings:
 ```
@@ -36,7 +36,7 @@ cd .vimrc/
 ```
 a folder with settings will appear in your home directory. You need to transfer the .vimrc file to your home directory. To do this, go to the folder with the file. Open a terminal in it and copy the command:
 ```
-mv .vimrc ~/
+sudo mv .vimrc ~/
 ```
 #### 3) Plugin installation
 We go to the page of these guys and copy:  
