@@ -27,7 +27,7 @@ cd ~/Downloads/
 ```
 and clone settings:
 ```
-sudo git clone https://github.com/I2etr0/.vimrc.git
+sudo git clone https://github.com/I2etr0/vimrc.git
 ```
 go to the .vimrc folder:
 
