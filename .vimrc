@@ -19,7 +19,6 @@ set ffs=unix,dos,mac
 set fencs=utf-8,cp1251,koi8-r,ucs-2,cp866
 set listchars=tab:··
 set mousehide
-set cursorline
 set history=200
 set wildmenu
 set smartindent
@@ -28,14 +27,11 @@ set mousemodel=popup
 set mousehide
 set smartindent
 set showmatch
-set cursorline
-highlight CursorLine guibg=lightblue ctermbg=lightgray
-highlight CursorLine term=none cterm=none
 set list listchars=tab:→\ ,trail:·
 
 
 
-"Автодополнение на TAB
+"Autocomplete on TAB
 function! SuperCleverTab()
     if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
         return "\<Tab>"
@@ -49,12 +45,12 @@ inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 "mappings
 
-"Показывает дерево проетов:
+"Show projects tree:
 map <C-t> : NERDTreeToggle<CR>
 
 map <C-n> : nohlsearch<CR>
 
-"Биндинг автодополнения на TAB
+"Bind autocomplete on TAB
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 "-------------------------------------------------------------------
@@ -64,7 +60,7 @@ inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 
 "-------------------------------------------------------------------
-" Начало плагинов:
+" Plugs beginning:
 
 call plug#begin('~/.vim/plugged')
 
@@ -82,9 +78,11 @@ Plug 'stanangeloff/php.vim'
 
 "Plug 'artanikin/vim-synthwave84'
 
-" Initialize plugin system
+
 call plug#end()
 
+" Plugs end
+"-------------------------------------------------------------------
 
 colorscheme gruvbox
 set background=dark
