@@ -44,7 +44,7 @@ We go to the page of these guys and copy:
 **Vim**  
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+sudo curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 Launch **vim** and run **:PluginInstall**  
