@@ -78,3 +78,24 @@ q
 
 
 See also the list of [contributors](https://github.com/I2etr0/.vimrc/graphs/contributors) who participated in this project.
+
+# Possible bugs:
+```
+Error detected while processing /home/user/.vimrc:
+line   65:
+E117: Unknown function: plug#begin
+line   68:
+E492: Not an editor command: Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+line   71:
+E492: Not an editor command: Plug 'morhetz/gruvbox'
+line   74:
+E492: Not an editor command: Plug 'chr4/nginx.vim'
+line   77:
+E492: Not an editor command: Plug 'stanangeloff/php.vim'
+line   82:
+E117: Unknown function: plug#end
+line   87:
+E185: Cannot find color scheme 'gruvbox'
+Press ENTER or type command to continue
+```
+Change the access rights for the files.vimrc .vim commands ```chown-R user: user .vim```
