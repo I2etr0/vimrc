@@ -32,7 +32,7 @@ sudo git clone https://github.com/I2etr0/vimrc.git
 go to the .vimrc folder:
 
 ```
-cd .vimrc/
+cd vimrc/
 ```
 a folder with settings will appear in your home directory. You need to transfer the .vimrc file to your home directory. To do this, go to the folder with the file. Open a terminal in it and copy the command:
 ```
