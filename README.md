@@ -1,12 +1,12 @@
-# Settings for Vim
+# 👨‍💻 Settings for Vim
 
 My initial settings for vim. In the future, everything will be improved.
 
-## Getting Started
+## 🚀 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Installing
+### 📥 Installing
 
 #### 1)Install:
 Install VIM:
@@ -67,10 +67,10 @@ And finally, click "**Shift +;**" again and write:
 q
 ```
 
-# Good luck!!!
+# 👍 Good luck!!!
 
 
-## Authors
+## ✍️ Authors
 
 * **I2etr0** - *Initial work* - [I2etr0](https://github.com/I2etr0)
 * **Plugin gruvbox** - *Plugin development* - [Gruvbox](https://github.com/morhetz/gruvbox)
@@ -79,7 +79,7 @@ q
 
 See also the list of [contributors](https://github.com/I2etr0/.vimrc/graphs/contributors) who participated in this project.
 
-# Possible bugs:
+# 👾 Possible bugs:
 ```
 Error detected while processing /home/user/.vimrc:
 line   65:
