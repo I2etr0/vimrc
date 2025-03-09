@@ -98,4 +98,4 @@ line   87:
 E185: Cannot find color scheme 'gruvbox'
 Press ENTER or type command to continue
 ```
-Change the access rights for the files.vimrc .vim commands ```chown-R user: user .vim```
+Change the access rights for the files.vimrc .vim commands ```chown-R user:user .vim```
