@@ -47,8 +47,16 @@ We go to the page of these guys and copy:
 sudo curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+Then, insert in **console**:
+
+```
+$ cd ~/
+$ sudo chown -R username:username .vim
+```
+
 Launch **vim** and run **:PluginInstall**  
-When everything is installed, click "**Shift + ;**" and write "**q**".  
+When everything is installed, write `:q`.  
 
 #### 4) Add Plugin
 Copy the name of the project (morhetz/gruvbox) and paste it into .vimrc (this step has already been done)
