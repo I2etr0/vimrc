@@ -2,7 +2,7 @@ syntax on
 
 set number
 set showcmd
-set tabstop=4
+set tabstop=2
 set shiftwidth=4
 set smarttab
 set termencoding=utf8
